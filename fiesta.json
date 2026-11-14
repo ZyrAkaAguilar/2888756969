@@ -1,0 +1,63 @@
+{
+  "evento": {
+    "titulo": "NOCHE DE FIESTA & JUEGOS",
+    "subtitulo": "SALA VIP • 2026",
+    "ubicacion": "CASA DE ZYR • SALA PRINCIPAL",
+    "mostrarReloj": true
+  },
+  "actividad": {
+    "estado": "EN CURSO",
+    "titulo": "LOBBY DE BIENVENIDA",
+    "descripcion": "Pónganse cómodos, agarren algo frío y prepárense que ya casi arrancamos con la primera ronda.",
+    "acentoColor": "#ffbe0b"
+  },
+  "anuncioFlash": {
+    "id": "alerta-01",
+    "activo": false,
+    "emoji": "🍕",
+    "titulo": "¡LLEGÓ LA COMIDA!",
+    "subtitulo": "Pausen todo y pasen a la mesa principal"
+  },
+  "invitados": [
+    {
+      "nombre": "Zyr",
+      "apodo": "ANFITRIÓN",
+      "estado": "presente",
+      "avatar": "👑",
+      "color": "#ff006e"
+    },
+    {
+      "nombre": "Mateo",
+      "apodo": "CAMPEÓN DE TRIVIA",
+      "estado": "presente",
+      "avatar": "🔥",
+      "color": "#00f5d4"
+    },
+    {
+      "nombre": "Sofía",
+      "apodo": "REINA DEL CAOS",
+      "estado": "en_camino",
+      "avatar": "⚡",
+      "color": "#ffbe0b"
+    },
+    {
+      "nombre": "Diego",
+      "apodo": "ESTRATEGA",
+      "estado": "pendiente",
+      "avatar": "🎮",
+      "color": "#8338ec"
+    },
+    {
+      "nombre": "Valeria",
+      "apodo": "INVITADA ESPECIAL",
+      "estado": "pendiente",
+      "avatar": "✨",
+      "color": "#38b000"
+    }
+  ],
+  "cintillo": [
+    "🎉 ¡Bienvenidos a la reunión!",
+    "🕹️ Controles y bebidas listos en la mesa",
+    "📸 No olviden tomar fotos para el recuerdo"
+  ]
+}
