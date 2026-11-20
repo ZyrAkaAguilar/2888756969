@@ -1,0 +1,90 @@
+{
+  "configuracion": {
+    "tituloPortal": "NODE DE PRUEBA DE **BLOGS**",
+    "subtituloPortal": "Developer Zone."
+  },
+  "blogs": [
+    {
+      "id": "publicity-avathecatto",
+      "destacado": false,
+      "categoria": "Publicidad",
+      "fecha": "17 Nov 2026",
+      "lectura": "NULL min de lectura",
+      "autor": "AvaTheCat",
+      "rolAutor": "Artista | ZyrIsland Team",
+      "avatarAutor": "https://app.zyrisland.net/assets/icons/pfp/AvaTheCat.png",
+      "imagen": "https://app.zyrisland.net/assets/backgrounds/publicity-001.jpg",
+      "titulo": "Conoce a AvaTheCat! | Artista",
+      "resumen": "Aqui podras conocer a **AvaTheCat**, una de las artistas officiales del **ZyrAkaTV**! Quieres tener arte como el de Ava? Ven y conoce todo acerca de la gran artista!",
+      "etiquetas": ["ava", "servicios", "contratar", "comisiones", "arte"],
+      "contenido": [
+        "> **UNLISTED:** Solo personas con este link podran ver este post!",
+        "# ¿Quien soy?",
+        "Haii! Soy Ava, también conocida como AvaTheCatto, y soy una pequeña artista furry que se especializa en arte anthro!",
+        "![AvaTheCat - Untitled Wallpaper](https://app.zyrisland.net/assets/backgrounds/sliderAva-001.jpg)",
+        "![AvaTheCat - [OwlPaw's Hunt](https://artfight.net/attack/15618568.pov-youre-a-squirrel-and-owl-is-out-hunting)](https://app.zyrisland.net/assets/backgrounds/sliderAva-003.jpg)",
+        "----",
+        "#### ¿Que dibujo?",
+        "Mi especialidad es arte animal, en especifico mamales y aves, de categoría antropomórfica, soy capaz de dibujar humanos y animales ferales! En este momento solo ofrezco commisiones por Robux, y no tengo precios definidos... Pero ofrezco cualquier tipo de arte digital siempre que caiga en mis posibilidades, por lo que puedo hacer stickers, wallpapers, backgrounds, hojas de referencia para personajes, fotos de perfil, y mucho más",
+        "![AvaTheCat - [Lock TF In](https://www.tumblr.com/avathecatto/826853682134106112/time-to-lock-tf-in?source=share)](https://app.zyrisland.net/assets/backgrounds/sliderAva-002.jpg)",
+        "----",
+        "#### Mi Trabajo",
+        "Tengo el placer de trabajar como artista para los projectos de **ZyrIsland** y en el arte para las miniaturas del canal, por lo que todo el arte que ven ahí es creado por mí :3!",
+        "![AvaTheCat - [ShyBee in a field of pink and gold](https://artfight.net/attack/14341607.shybee-on-a-field-of-red-and-gold-flowers) ](https://app.zyrisland.net/assets/backgrounds/sliderAva-004.jpg)",
+        "![AvaTheCat - Ode to the Sleeping Sun](https://app.zyrisland.net/assets/backgrounds/sliderAva-005.jpg)"
+      ]
+    },
+    {
+      "id": "testnode_template",
+      "destacado": false,
+      "categoria": "Template",
+      "fecha": "-- --- ----",
+      "lectura": "1~ min de lectura",
+      "autor": "CynAkaAgl",
+      "rolAutor": "Fundadora & Directora de Eventos",
+      "avatarAutor": "https://mc-heads.net/avatar/ZyrAkaAguilar/100",
+      "imagen": "https://app.zyrisland.net/assets/backgrounds/null_background.jpg",
+      "titulo": "Charaters Template",
+      "resumen": "Aqui estan todos los caracteres especiales y lo que hacen",
+      "etiquetas": ["pruebas"],
+      "contenido": [
+        "# Título Gigante",
+        "## Subtítulo Grande",
+        "### Sección Mediana",
+        "#### Subsección Pequeña",
+        "**Bold** / * * Bold * *",
+        "*Italic* / * Italic *",
+        "~~Strikeline~~ / ~ ~ Strikeline ~ ~",
+        "==Subrayado== / = = Subrayado = =",
+        "`Command` / `` Command `",
+        "[Click Aqui](https://zyrisland.net/testnodeblog/post.html?id=testnode_template) / Enlace clicable [text] (link)",
+        "- Elemento / - Lista con viñetas",
+        "* Elemento / * Lista con viñetas",
+        "1. Enumerado / 1. Lista enumerada",
+        "2. Enumerado / 2. Lista enumerada",
+        "> texto / > Caja de cita destacada",
+        "---",
+        "![TestImage](https://app.zyrisland.net/assets/backgrounds/null_background.jpg)"
+      ]
+    },
+    {
+      "id": "testnode_example",
+      "destacado": true,
+      "categoria": "Test",
+      "fecha": "-- --- ----",
+      "lectura": "1~ min de lectura",
+      "autor": "CynAkaAgl",
+      "rolAutor": "Fundadora & Directora de Eventos",
+      "avatarAutor": "https://mc-heads.net/avatar/ZyrAkaAguilar/100",
+      "imagen": "https://app.zyrisland.net/assets/backgrounds/null_background.jpg",
+      "titulo": "Nodo de pruebas: **Blog System**",
+      "resumen": "Este es el nodo de prueba de blog.",
+      "etiquetas": ["pruebas"],
+      "contenido": [
+        "# Null",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
+      ]
+    }
+  ]
+}

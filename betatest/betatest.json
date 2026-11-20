@@ -1,0 +1,28 @@
+{
+  "activo": false,
+  "titulo": "ZyrIsland Minigames - Beta v0.1",
+  "subtitulo": "Betatest Official, organizado en MINECRAFT ESPAÑOL.",
+  "servidor": {
+    "ip": "beta.zyrisland.net",
+    "version": "Java 1.21.11",
+    "acceso": "Premium & No-Premium",
+    "modpack_requerido": false,
+    "modpack_nombre": "Este servidor no requiere ningun modpack!",
+    "modpack_url": "https://app.zyrisland.net"
+  },
+  "jugadores": {
+    "actuales": 0,
+    "maximos": 100,
+    "usar_api_en_vivo": false
+  },
+  "objetivos_prueba": [
+    "Primeras versiones del ZyrIsland Minigames",
+    "Probar fluidez de los minijuegos y transiciones entre rondas.",
+    "Probando primeros minijuegos! [Parkour Tag, Hide & Seek, Musical Doors]"
+  ],
+  "mensaje_cerrado": {
+    "titulo": "NO HAY BETATEST DISPONIBLES",
+    "descripcion": "No hay ninguna sesión de pruebas abierta en este instante. Estamos preparando las próximas mecánicas y mapas; únete a Discord para enterarte en cuanto abramos cupos.",
+    "proxima_fecha": "PROXIMAMENTE"
+  }
+}

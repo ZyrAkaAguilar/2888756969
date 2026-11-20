@@ -1,0 +1,72 @@
+
+document.addEventListener('DOMContentLoaded', () => {
+    
+    async function loadNews() {
+        const container = document.getElementById('news-container');
+        try {
+            const res = await fetch(`../data/news.json?t=${new Date().getTime()}`);
+            if (!res.ok) throw new Error("No se encontró news.json");
+            
+            const newsData = await res.json();
+            
+            newsData.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'news-card';
+                card.innerHTML = `
+                    <span class="news-date">${item.date}</span>
+                    <h3 class="news-title">${item.title}</h3>
+                    <p class="news-desc">${item.description}</p>
+                `;
+                container.appendChild(card);
+            });
+        } catch (error) {
+            console.error("Error cargando noticias:", error);
+            container.innerHTML = '<p style="color:#aaa;">No hay noticias recientes.</p>';
+        }
+    }
+    loadNews();
+
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    
+    let currentSlide = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+        slides[currentSlide].classList.remove('active');
+        
+        currentSlide = (index + slides.length) % slides.length;
+        
+        slides[currentSlide].classList.add('active');
+    }
+
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentSlide - 1);
+    }
+
+    nextBtn.addEventListener('click', () => {
+        nextSlide();
+        resetTimer();
+    });
+    
+    prevBtn.addEventListener('click', () => {
+        prevSlide();
+        resetTimer();
+    });
+
+    function startTimer() {
+        slideInterval = setInterval(nextSlide, 10000);
+    }
+
+    function resetTimer() {
+        clearInterval(slideInterval);
+        startTimer();
+    }
+
+    startTimer();
+});
